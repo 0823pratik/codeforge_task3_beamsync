@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['no-entry-sign', 'no-entry-text', 'stop-text']
+
+roboflow:
+  workspace: spchallengetask1
+  project: no_entry-pt2ud
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/spchallengetask1/no_entry-pt2ud/dataset/2ls
+  
